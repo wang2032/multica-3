@@ -8,7 +8,7 @@ export const TodoPage = () => {
   return (
     <div className="todo-page">
       <header className="todo-header">
-        <h1>待办事项</h1>
+        <h1>任务列表</h1>
       </header>
       <main className="todo-main">
         <AddTodo onAdd={addTodo} />
